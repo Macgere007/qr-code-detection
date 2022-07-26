@@ -18,7 +18,7 @@ def read_qrcodes(frame):
 
 def main():
     
-    camera = cv2.VideoCapture('http://192.168.140.182:4747/video')
+    camera = cv2.VideoCapture('http://0.0.0.0:4747/video')
     ret, frame = camera.read()
     
     while ret:
